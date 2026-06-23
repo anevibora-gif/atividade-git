@@ -7,5 +7,6 @@ class Funcionario {
     public function __construct($nome, $matricula) {
         $this->nome = $nome;
         $this->matricula = $matricula;
+        $this->salario = $salario;
     }
 }
