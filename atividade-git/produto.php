@@ -2,10 +2,12 @@
 
 class Produto {
     private $codigo;
-    private $descricao;
+    private $nome;
+    private $preco;
+    private $estoque;
 
-    public function __construct($codigo, $descricao) {
-        $this->codigo = $codigo;
-        $this->descricao = $descricao;
+    public function exibirProduto() {
+        echo $this->nome;
     }
 }
+?>
